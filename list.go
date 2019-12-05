@@ -7,8 +7,9 @@ func Sort(arr []int) []int {
 		final = arr[i]
 		for j = i + 1; j < len(arr); j++ {
 			if final > arr[j] {
+				tmp := final
 				final = arr[j]
-				arr[j] = final
+				arr[j] = tmp
 			}
 		}
 		res = append(res, final)
