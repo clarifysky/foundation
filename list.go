@@ -1,4 +1,4 @@
-package modules
+package foundation
 
 func Sort(arr []int) []int {
 	var i, j, final int
